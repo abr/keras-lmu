@@ -183,7 +183,7 @@ Release history
   will be used as a meta-package to encapsulate LMU implementations in different
   frameworks. (`#24`_)
 
-.. _#24: https://github.com/abr/lmu/pull/24
+.. _#24: https://github.com/abr/keras-lmu/pull/24
 
 0.2.0 (November 2, 2020)
 ========================
@@ -235,9 +235,9 @@ Release history
 - Dropped support for Python 3.5, which reached its end of life in September 2020.
   (`#22`_)
 
-.. _#20: https://github.com/abr/lmu/pull/20
-.. _#21: https://github.com/abr/lmu/pull/21
-.. _#22: https://github.com/abr/lmu/pull/22
+.. _#20: https://github.com/abr/keras-lmu/pull/20
+.. _#21: https://github.com/abr/keras-lmu/pull/21
+.. _#22: https://github.com/abr/keras-lmu/pull/22
 
 0.1.0 (June 22, 2020)
 =====================

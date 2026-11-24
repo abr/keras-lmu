@@ -86,13 +86,12 @@ pygments_style = "sphinx"
 user_agent = "keras_lmu"
 autodoc_inherit_docstrings = False
 linkcheck_ignore = linkcheck_ignore + [
-    "https://www.appliedbrainresearch.com/license",
-    "https://www.appliedbrainresearch.com/store",
+    "https://www.appliedbrainresearch.com/license/open"
 ]
 
 project = "KerasLMU"
 authors = "Applied Brain Research"
-copyright = "2019-2025 Applied Brain Research"
+copyright = "2019-2026 Applied Brain Research"
 version = ".".join(keras_lmu.__version__.split(".")[:2])  # Short X.Y version
 release = keras_lmu.__version__  # Full version, with tags
 
@@ -108,36 +107,6 @@ html_favicon = str(pathlib.Path("_static", "favicon.ico"))
 html_theme_options = {
     "nengo_logo": "general-full-light.svg",
     "nengo_logo_color": "#a8acaf",
-    "analytics": """
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GT8XEDLTMJ"></script>
-        <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-GT8XEDLTMJ');
-        </script>
-        <!-- End Google tag (gtag.js) -->
-        <!-- Matomo -->
-        <script>
-         var _paq = window._paq = window._paq || [];
-         _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-         _paq.push(["setCookieDomain", "*.appliedbrainresearch.com"]);
-         _paq.push(["setDomains", ["*.appliedbrainresearch.com","*.edge.nengo.ai","*.forum.nengo.ai","*.nengo.ai"]]);
-         _paq.push(["enableCrossDomainLinking"]);
-         _paq.push(["setDoNotTrack", true]);
-         _paq.push(['trackPageView']);
-         _paq.push(['enableLinkTracking']);
-         (function() {
-           var u="https://appliedbrainresearch.matomo.cloud/";
-           _paq.push(['setTrackerUrl', u+'matomo.php']);
-           _paq.push(['setSiteId', '3']);
-           var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-           g.async=true; g.src='//cdn.matomo.cloud/appliedbrainresearch.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-         })();
-        </script>
-        <!-- End Matomo Code -->
-    """,
 }
 html_redirects = [
     ("getting_started.html", "getting-started.html"),

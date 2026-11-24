@@ -51,7 +51,7 @@ setup(
     name="keras-lmu",
     version=version,
     author="Applied Brain Research",
-    author_email="info@appliedbrainresearch.com",
+    author_email="sales@appliedbrainresearch.com",
     packages=find_packages(),
     url="https://www.nengo.ai/keras-lmu",
     include_package_data=False,

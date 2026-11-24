@@ -2,7 +2,7 @@
 KerasLMU license
 ****************
 
-Copyright (c) 2019-2025 Applied Brain Research
+Copyright (c) 2019-2026 Applied Brain Research
 
 Applied Brain Research Open License
 ===================================
@@ -36,7 +36,7 @@ If You modify the Licensed Elements and provide them to others, You may apply te
 Your choice to Your own modifications; however, if You provide any of the
 Licensed Elements to others, You must inform the recipient that the Licensed Elements
 are available only under this license, either by providing a copy of this license,
-or a reference to https://www.appliedbrainresearch.com/license.
+or a reference to https://www.appliedbrainresearch.com/license/open.
 
 Termination
 -----------
