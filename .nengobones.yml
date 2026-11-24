@@ -13,6 +13,7 @@ contributors_rst: {}
 manifest_in: {}
 
 setup_py:
+  author_email: sales@appliedbrainresearch.com
   install_req:
     - packaging>=20.9
     - scipy>=1.0.0
@@ -59,7 +60,7 @@ docs_conf_py:
     - import tensorflow as tf
   sphinx_options:
     autodoc_inherit_docstrings: False
-    linkcheck_ignore: "linkcheck_ignore+['https://www.appliedbrainresearch.com/license', 'https://www.appliedbrainresearch.com/store']"
+    linkcheck_ignore: "linkcheck_ignore+['https://www.appliedbrainresearch.com/license/open']"
 
 ci_scripts:
   - template: static

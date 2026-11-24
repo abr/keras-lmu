@@ -86,8 +86,7 @@ pygments_style = "sphinx"
 user_agent = "keras_lmu"
 autodoc_inherit_docstrings = False
 linkcheck_ignore = linkcheck_ignore + [
-    "https://www.appliedbrainresearch.com/license",
-    "https://www.appliedbrainresearch.com/store",
+    "https://www.appliedbrainresearch.com/license/open",
 ]
 
 project = "KerasLMU"
