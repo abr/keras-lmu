@@ -2,7 +2,7 @@
 KerasLMU license
 ****************
 
-Copyright (c) 2019-2025 Applied Brain Research
+Copyright (c) 2019-2026 Applied Brain Research
 
 Applied Brain Research Open License
 ===================================

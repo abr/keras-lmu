@@ -91,7 +91,7 @@ linkcheck_ignore = linkcheck_ignore + [
 
 project = "KerasLMU"
 authors = "Applied Brain Research"
-copyright = "2019-2025 Applied Brain Research"
+copyright = "2019-2026 Applied Brain Research"
 version = ".".join(keras_lmu.__version__.split(".")[:2])  # Short X.Y version
 release = keras_lmu.__version__  # Full version, with tags
 
